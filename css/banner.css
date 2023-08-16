@@ -1,0 +1,36 @@
+.banner__div{
+    display: flex;
+    padding: 14rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__titulo--div{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-texto-banner);
+    border: 1px solid var(--color-texto-oscuro);
+    border-radius: 2rem;
+    padding: 3rem;
+    box-shadow: 0rem 0rem 10rem var(--neon-blanco);
+    
+}
+
+.banner__titulo{
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 0.15em solid black; 
+    font-size: 2rem;
+    font-family: 'Raleway';
+    animation: typing 4s steps(40) infinite;
+    padding: 1rem;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }

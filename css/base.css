@@ -1,0 +1,36 @@
+:root{
+    --color-de-fondo-oscuro: #17141C;
+    --color-de-fondo-claro:#2A2A6A;
+    --color-texto-oscuro:#A065FD;
+    --color-texto-claro:#D8C8FA;
+    --fondo-elementos-oscuro:#5C4569;
+    --neon-violeta:#9F3DF0;
+    --neon-blanco:#ffffff;
+    --color-texto-banner:#ddbef0;
+    --degrade-circulos-claro:#1F1D3D;
+    --fondo-formaciones:#000021;
+    --color-botones-encriptador:#C3A9FB;
+    --efecto-neon: 0rem 0rem 2rem var(--neon-blanco);
+    --color-texto-inputs:#010480;
+    --color-fondo-inputs:#AAA2FF;
+    --color-texto-placeholder:#010480 70%;
+    --color-boton-contacto:#000021;
+    --color-texto-boton-contacto:#AAA2FF;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 1.2rem;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}

@@ -1,0 +1,22 @@
+.footer{
+    background: var(--color-de-fondo-oscuro);
+    color: var(--color-texto-oscuro);
+    padding: 1.5rem;
+}
+
+.footer__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__contenido__desarrolladora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__contenido__desarrolladora--parrafo{
+    padding-left: 1rem;
+}

@@ -1,0 +1,147 @@
+.formContacto{
+    background: var(--color-de-fondo-claro);
+    color: var(--color-texto-claro);
+    padding: 5rem;
+}
+
+.formContacto__contacto{
+    display: flex;
+}
+
+.formContacto-__imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.formContacto__img{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    z-index: 1;
+
+}
+
+.formContacto__img--telefono{
+    position: absolute;
+    z-index: 2;
+    padding: 10rem;
+    margin: 2rem;
+}
+
+.formContacto__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+
+.formContacto__titulo{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    width: 100%;
+    border: 1px solid var(--color-texto-claro);
+    box-shadow: var(--efecto-neon);
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.formContacto__subtexto{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.7rem 0;
+}
+
+.formContacto__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: stretch;
+    width: 100%;
+
+}
+
+.formContacto__form--labels{
+    background: var(--color-fondo-inputs);
+    width: 100%;
+    color: var(--color-texto-inputs);
+    padding: 1rem 1rem 0.5rem 1rem;
+
+}
+
+.formContacto__input::placeholder{
+    color: var(--color-texto-placeholder);
+    font-size: 1rem;
+}
+
+.formContacto__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    background: var(--color-fondo-inputs);
+    border: none;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}   
+
+.formContacto__input:focus{
+    outline: none;
+}
+
+.div__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.formContacto__textarea{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    background: var(--color-fondo-inputs);
+    padding: 1rem;
+
+}
+
+.formContacto__textarea::placeholder{
+    color: var(--color-texto-placeholder);
+    font-size: 1rem;
+    font-family: 'Raleway';
+
+}
+
+.formContacto__textarea:focus{
+    outline: none;
+}
+
+.formContacto__boton{
+    margin-top: 1rem;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--color-texto-boton-contacto) ;
+    background: var(--color-boton-contacto);
+    border: 1px solid var(--color-texto-boton-contacto);
+    box-shadow: var(--efecto-neon);
+}
+
+.formContacto__boton:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+    font-size: 1.2rem;
+    background: var(--color-de-fondo-claro);
+    color: var(--color-texto-claro);
+    font-weight: bold;
+    box-shadow: 0rem 0rem 2rem var(--color-boton-contacto);
+}
+

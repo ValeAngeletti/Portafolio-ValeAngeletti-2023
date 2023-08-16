@@ -1,0 +1,65 @@
+.formaciones{
+    background-color: var(--color-de-fondo-claro);
+    color: var(--color-texto-claro);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.formaciones__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+.formaciones__cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formaciones__cursos__caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formaciones__div__imagen{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo-formaciones);
+}
+
+.formaciones__div__imagen:hover{
+    box-shadow: var(--efecto-neon);
+    background: linear-gradient(var(--fondo-formaciones), var(--color-de-fondo-claro));
+}
+
+.formaciones__cursos__item__img{
+   width: 100%;
+   padding:1rem;
+}
+
+.formaciones__cursos__item__div__textos {
+    width: 240px;
+    height: 240px;
+    text-align: center;
+}
+
+.formaciones__cursos__item__titulo{
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo__google{
+    width: 240px;
+    height:189px ;
+}

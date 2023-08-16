@@ -1,0 +1,9 @@
+.caja__atributos{
+    background: linear-gradient(var(--color-de-fondo-oscuro), var(--color-de-fondo-claro) );
+    display: flex;
+    flex-direction: column;
+    color: var(--color-texto-claro);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
