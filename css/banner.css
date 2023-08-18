@@ -1,3 +1,11 @@
+.banner__gif{
+  background-image: url("../assets/396db544d568edf5624accb36eb8a2df.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  filter: contrast(0.9);
+}
+
 .banner__div{
     display: flex;
     padding: 14rem;
@@ -20,10 +28,20 @@
     overflow: hidden; 
     white-space: nowrap; 
     border-right: 0.15em solid black; 
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Raleway';
-    animation: typing 4s steps(40) infinite;
+    animation: typing 4s steps(40) 1 ,blink 1s steps(1) infinite;;
     padding: 1rem;
+
+}
+
+.banner__titulo--div:hover{
+  background: var(--color-fondo-banner-hover);
+  transform: scale(1.1);
+  transition: 0.5s all;
+  font-size: 1.2rem;
+  color: var(--color-texto-oscuro);
+  font-weight: bold;
 }
 
 @keyframes typing {
@@ -34,3 +52,9 @@
       width: 100%;
     }
   }
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}

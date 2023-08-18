@@ -305,22 +305,31 @@
                     <h2 class="formContacto__titulo">Contacto</h2>
                     <h3 class="formContacto__subtexto">¿Quieres contactarme?</h3>
                     <h3 class="formContacto__subtexto">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h3>
-                    <form class="formContacto__form" name="form">
+                    <form class="formContacto__form" name="form" id="formContacto__form">
                         <div class="div__inputs">
                             <label for="nombre" class="formContacto__form--labels">Nombre:</label>
-                            <input type="text" class="formContacto__input" name="nombre" placeholder="Nombre Apellido" required>
+                            <input id="nombre" type="text" class="formContacto__input" name="nombre" placeholder="Nombre Apellido" required data-tipo="nombre" maxlength="50">
+                            <span class="spans__form" id="mensaje__error"></span>
                         </div>
                         
                         <div class="div__inputs">
                             <label for="email" class="formContacto__form--labels">E-mail:</label>
-                            <input type="email" class="formContacto__input" name="email" placeholder="usuario@correo.com" required>
+                            <input id="email" type="email" class="formContacto__input" name="email" placeholder="usuario@correo.com" required data-tipo="email">
+                            <span class="spans__form" id="mensaje__error"></span>
                         </div>
                        
                         <div class="div__inputs">
                             <label for="asunto" class="formContacto__form--labels">Asunto:</label>
-                            <input type="text" class="formContacto__input" name="asunto" placeholder="Asunto" required>
+                            <input  id="asunto" type="text" class="formContacto__input" name="asunto" placeholder="Asunto" required data-tipo="asunto" maxlength="50">
+                            <span class="spans__form" id="mensaje__error"></span>
                         </div>
-                        <textarea name="mensaje" id="mensajeID" cols="40" rows="5" class="formContacto__textarea" placeholder="Mensaje"></textarea>
+
+                        <div class="div__inputs">
+                            <label for="mensaje" class="formContacto__form--labels">Mensaje:</label>
+                            <textarea name="mensaje" id="mensajeID" cols="40" rows="5" class="formContacto__textarea" placeholder="Mensaje" required data-tipo="mensaje" maxlength="300"></textarea>
+                            <span class="spans__form" id="mensaje__error"></span>
+                        </div>
+
                         <button type="submit" class="formContacto__boton">Enviar mensaje</button>
                     </form>
                 </div>
@@ -337,6 +346,7 @@
             </div>
            </section>
         </div>
+        <script src="js/app.js" type="module"></script>
     </body>
 
 </html>

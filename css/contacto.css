@@ -17,7 +17,7 @@
 
 .formContacto__img{
     width: 40rem;
-    height: 40rem;
+    height: 100%;
     position: relative;
     z-index: 1;
 
@@ -27,7 +27,7 @@
     position: absolute;
     z-index: 2;
     padding: 10rem;
-    margin: 2rem;
+    margin: 4.8rem 2rem;
 }
 
 .formContacto__texto{
@@ -101,16 +101,15 @@
 }
 
 .formContacto__textarea{
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    align-self: stretch;
     width: 100%;
     background: var(--color-fondo-inputs);
-    padding: 1rem;
-
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
 }
 
 .formContacto__textarea::placeholder{
@@ -129,13 +128,18 @@
     align-self: center;
     padding: 1rem;
     font-size: 1rem;
-    color: var(--color-texto-boton-contacto) ;
-    background: var(--color-boton-contacto);
+    color: var(--texto-boton-inactivo);
+    background: var(--fondo-boton-inactivo);
     border: 1px solid var(--color-texto-boton-contacto);
     box-shadow: var(--efecto-neon);
 }
 
-.formContacto__boton:hover{
+.formContacto__boton:enabled{
+    color: var(--color-texto-boton-contacto);
+    background: var(--color-boton-contacto);
+}
+
+.formContacto__boton:hover:enabled{
     transform: scale(1.1);
     transition: 0.5s all;
     font-size: 1.2rem;
@@ -145,3 +149,6 @@
     box-shadow: 0rem 0rem 2rem var(--color-boton-contacto);
 }
 
+.spans__form{
+    color: var(--color-texto-error);
+}

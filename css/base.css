@@ -16,6 +16,10 @@
     --color-texto-placeholder:#010480 70%;
     --color-boton-contacto:#000021;
     --color-texto-boton-contacto:#AAA2FF;
+    --color-fondo-banner-hover:#210949;
+    --color-texto-error:red;
+    --fondo-boton-inactivo:#424247;
+    --texto-boton-inactivo:#B8B8B8;
 }
 
 body {
