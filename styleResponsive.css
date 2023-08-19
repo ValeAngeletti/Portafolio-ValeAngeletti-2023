@@ -1,31 +1,144 @@
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    .menu__lista__item{
+        display: none;
+    }
+
+
+    #banner__div--id{
+        padding: 15rem 7rem;
+    }
+    .banner__titulo--div{
+        width:100%;
+        display: flex;
+        text-align: center;
+    }
+
+    #titulo__banner--id{
+        animation: none;
+        border-right: none;
+        overflow: initial;
+        white-space: normal;
+    }
+
+    .personal__imagenPerfil{
+        margin: 5rem;
+        border: 1px solid var(--neon-blanco);
+        box-shadow: var(--efecto-neon);
+    }
+
+    .personal__contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div__datosPersonales{
+        margin-right: 0;
+        margin: 1rem;
+    }
 
     
 
+    .skills__contenido{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .softSkills__contenido{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hobbies__contenido{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .formaciones__cursos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .proyecto__caja{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyecto__info{
+        padding-top: 2rem;
+    }
+
+    #proyecto__img{
+        width: 100%;
+    }
+
+    .formContacto__imagenes{
+        display: none;
+    }
+
+    #contacto__texto{
+        display: flex;
+        padding-left: 0;
+    }
+
+    .formContacto__subtexto{
+        padding:0;
+    }
 
 }
 
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media screen and (max-width: 425px) {
 
-/*Menu*/
+    .menu__lista__item--contacto{
+        font-size: 1rem;
+    }
 
-/*Titulo*/
+    .personal__imagenPerfil{
+        margin: 0;
+        padding: 0;
+        width: 20rem;
+    }
 
-/*Sección sobre mi*/
+    #imagen__personal{
+        padding: 0;
+        margin: 2rem 0;
+    }
 
-/*Skills*/
+    #skills__contenido{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
 
-/*Hobbies*/
- 
-/*Formación Académica*/
+    #softSkills__contenido{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
 
-/*Experiencia Profesional*/
+    #hobbies__contenido{
+        padding: 0;
+    }
 
- /*Contacto*/
+    #proyecto__img{
+        width: 100%;
+    }
 
-/*Footer*/
+    .formaciones__titulo{
+        border: 1px solid var(--neon-blanco);
+        margin-bottom: 4rem;
+        border-radius: 5rem;
+        box-shadow: var(--efecto-neon);
+    }
 
+    .footer__contenido__desarrolladora--parrafo{
+        font-size: 1rem;
+    }
+
+    .footer__fecha{
+        font-size: 1rem;
+    }
 }

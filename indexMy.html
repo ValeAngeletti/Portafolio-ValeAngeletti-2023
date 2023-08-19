@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleResponsive.css">
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/banner.css">
         <link rel="stylesheet" href="css/personal.css">
@@ -49,9 +49,9 @@
     
                 <!-- Sección del banner -->
                 <section >
-                    <div class="banner__div banner__gif">
+                    <div class="banner__div banner__gif" id="banner__div--id">
                         <div class="banner__titulo--div">
-                            <h1 class="banner__titulo" >Hola ! mi nombre es Valentina Angeletti</h1>
+                            <h1 class="banner__titulo" id="titulo__banner--id">Hola ! mi nombre es Valentina Angeletti</h1>
 
                         </div>
                     </div>
@@ -62,8 +62,8 @@
             <!--- Sección de información personal -->
             <section class="personal" id="sobre-mi">
                 <div class="personal__contenido">
-                    <img src="assets/fotoPerfil.png" alt="imagen de perfil de Valentina Angeletti" class="personal__imagenPerfil">
-                    <div class="personal__contenido__datos">
+                    <img src="assets/fotoPerfil.png" alt="imagen de perfil de Valentina Angeletti" class="personal__imagenPerfil" id="imagen__personal">
+                    <div class="personal__contenido__datos" id="div__datosPersonales">
                         <ul class="personal__datos">
                             <h3  class="personal__datos__titulo">Datos personales: </h4>
                             <div class="personal__caja__items">
@@ -98,7 +98,7 @@
             <div class="caja__atributos">
                 <section class="skills" id="skills">
                     <h3 class="skills__titulo">Skills</h3>
-                        <div class="skills__contenido">
+                        <div class="skills__contenido" id="skills__contenido">
     
                             <div class="skills__caja">
                                 <ul>
@@ -143,7 +143,7 @@
                 <!-- Sección de Soft Skills-->
                 <section class="softSkills" id="softSkills">
                     <h3 class="softSkills__titulo">Soft Skills</h3>
-                        <div class="softkills__contenido">
+                        <div class="softSkills__contenido" id="softSkills__contenido">
                             <div class="softSkills__caja">
                                 <ul>
                                     <li class="softSkills__imagen">
@@ -197,7 +197,7 @@
                 <!-- Sección de Hobbies -->
                 <section class="hobbies" id="hobbies">
                     <h3 class="hobbies__titulo">Hobbies</h3>
-                        <div class="hobbies__contenido">
+                        <div class="hobbies__contenido" id="hobbies__contenido">
                             <div class="hobbies__caja">
                                 <ul>
                                     <li class="hobbies__img"><img src="assets/auriculares2.png" alt="icono de auriculares de color violeta claro"></li>
@@ -283,13 +283,13 @@
            <section class="proyecto" id="xp">
                 <h2 class="proyecto__tituloGeneral">Experiencia Profesional</h2>
                 <div class="proyecto__caja">
-                    <img src="assets/encriptadorVale.png" alt="captura de pantalla del proyecto de encriptador de texto" class="proyecto__img">
+                    <img src="assets/encriptadorVale.png" alt="captura de pantalla del proyecto de encriptador de texto" class="proyecto__img" id="proyecto__img">
                     <div class="proyecto__info">
                         <h2 class="proyecto__titulo">Encriptador de texto</h2>
                         <h3 class="proyecto__texto">Challenge Alura Codificador</h3>
                             <div class="proyecto__descripcion">
-                                <span class="proyecto__repo"><a href=""><button class="proyecto__repo--boton">Repositorio</button></a></span>
-                                <span class="proyecto__demo"><a href=""><button class="proyecto__demo--boton">Ver demo</button></a></span>
+                                <span class="proyecto__repo"><a href="https://github.com/ValeAngeletti/Encriptador-de-Texto-Vale19.git"><button class="proyecto__repo--boton">Repositorio</button></a></span>
+                                <span class="proyecto__demo"><a href="https://valeangeletti.github.io/Encriptador-de-Texto-Vale19/"><button class="proyecto__demo--boton">Ver demo</button></a></span>
                             </div>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                     <img src="assets/telefono.png" alt="icono de un telefono color violeta claro" class="formContacto__img--telefono">
                     <img src="assets/b1fa4beeb4d633f2d43eeb18b08aa222 (1).gif" alt="gif de olas en tonos azules y violetas" class="formContacto__img">
                 </div>
-                <div class="formContacto__texto">
+                <div class="formContacto__texto" id="contacto__texto">
                     <h2 class="formContacto__titulo">Contacto</h2>
                     <h3 class="formContacto__subtexto">¿Quieres contactarme?</h3>
                     <h3 class="formContacto__subtexto">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h3>
@@ -342,7 +342,7 @@
                     <img src="assets/derechos-de-autor (1).png" alt="logo de copyrigth en tonos azules y violeta">
                     <p class="footer__contenido__desarrolladora--parrafo">Desarrollado por Valentina Angeletti</p>
                 </div>
-                <p>2023</p>
+                <p class="footer__fecha">2023</p>
             </div>
            </section>
         </div>

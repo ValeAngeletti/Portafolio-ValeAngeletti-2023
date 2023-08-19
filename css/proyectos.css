@@ -1,7 +1,7 @@
 .proyecto{
     background: var(--color-de-fondo-oscuro);
     color: var(--color-texto-oscuro);
-    padding: 3rem 5rem;
+    padding: 3rem 2rem;
 }
 
 .proyecto__tituloGeneral{
@@ -18,7 +18,7 @@
 }
 
 .proyecto__img{
-    width: 50rem;
+    width: 70%;
     box-shadow: 0rem 0rem 1rem var(--neon-blanco);
     
 }

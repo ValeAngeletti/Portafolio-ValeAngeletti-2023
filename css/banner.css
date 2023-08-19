@@ -30,7 +30,7 @@
     border-right: 0.15em solid black; 
     font-size: 2.5rem;
     font-family: 'Raleway';
-    animation: typing 4s steps(40) 1 ,blink 1s steps(1) infinite;;
+    animation: typing 4s steps(40) 1 ,blink 1s steps(1) infinite;
     padding: 1rem;
 
 }
@@ -51,7 +51,7 @@
     to {
       width: 100%;
     }
-  }
+}
 
 @keyframes blink {
   50% {
