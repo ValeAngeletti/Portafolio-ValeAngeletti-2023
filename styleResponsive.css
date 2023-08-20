@@ -5,14 +5,15 @@
         display: none;
     }
 
-
     #banner__div--id{
         padding: 15rem 7rem;
     }
+
     .banner__titulo--div{
         width:100%;
         display: flex;
         text-align: center;
+        justify-content: center;
     }
 
     #titulo__banner--id{
@@ -38,9 +39,8 @@
     #div__datosPersonales{
         margin-right: 0;
         margin: 1rem;
+        box-shadow: none;
     }
-
-    
 
     .skills__contenido{
         display:flex;
@@ -94,14 +94,40 @@
 /*Mobile*/
 @media screen and (max-width: 425px) {
 
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .menu__lista__item--contacto{
         font-size: 1rem;
+    }
+
+    .banner__titulo--div{
+        padding: 1rem;
+    }
+
+    #banner__div--id{
+        padding:15rem 6rem;
+    }
+    .banner__div{
+        padding: 3rem;
     }
 
     .personal__imagenPerfil{
         margin: 0;
         padding: 0;
-        width: 20rem;
+        width: 15rem;
+    }
+
+    .personal__caja__items{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .personal__datos__items{
+        padding: 1rem;
     }
 
     #imagen__personal{
@@ -109,18 +135,29 @@
         margin: 2rem 0;
     }
 
+    .personal__datos__titulo{
+        box-shadow: var(--efecto-neon);
+    }
+
+    .personal__sobreMi__titulo{
+        box-shadow: var(--efecto-neon);
+    }
+
     #skills__contenido{
         padding: 0;
         margin-bottom: 2rem;
+        margin: 0;
     }
 
     #softSkills__contenido{
         padding: 0;
         margin-bottom: 2rem;
+        margin: 0;
     }
 
     #hobbies__contenido{
         padding: 0;
+        margin: 0;
     }
 
     #proyecto__img{
